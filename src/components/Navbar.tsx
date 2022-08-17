@@ -10,7 +10,7 @@ export default function NavComponent() {
 			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 ">
 				<div className="flex-1">
 					<Link href="/"> 
-						<div className="text-[#40AAE8] btn btn-ghost normal-case text-3xl" >
+						<div className="cursor-pointer text-[#40AAE8] btn btn-ghost normal-case text-3xl" >
 							Crypto Scoper
 						</div>
 					</Link>
