@@ -15,7 +15,7 @@ export default function NavComponent() {
 							<Link href="/"> 
 								<div className="text-light-green btn btn-ghost normal-case font-bold md:text-5xl text-2xl">
 									<Image
-										src="/crypto_scoper_c_whitebg.PNG"
+										src="/crypto_scoper_logo_c.png"
 										alt="C Logo"
 										width={100} 
 										height={100}
@@ -32,8 +32,10 @@ export default function NavComponent() {
 					{/* <div className="hidden w-full md:block md:w-auto" id="navbar-default"> */}
 						<ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 							<li>
+								<Link href="/"> 
 								{/* <a href="/" className="block py-2 pr-4 pl-3 text-light-green bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a> */}
-								<a href="/" className={`block py-2 pr-4 pl-3 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white ${router.pathname == "/" ? "text-light-green" : "matte-grey"}`} aria-current="page">Home</a>
+									<div className={`cursor-pointer block py-2 pr-4 pl-3 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white ${router.pathname == "/" ? "text-light-green" : "matte-grey"}`} aria-current="page">Home</div>
+								</Link>
 							</li>
 							{/* <div className='hidden md:flex'> */}
 								{/* <li>
